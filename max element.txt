@@ -1,0 +1,17 @@
+#include <algorithm>
+#include <vector>
+
+vector<int> v;
+
+// 최대 요소
+int max_idx = max_element(v.begin(), v.end()) - v.begin();
+int max = *max_element(v.begin(), v.end());
+
+// 최소 요소
+int min_idx = min_element(v.begin(), v.end()) - v.begin();
+int min = *min_element(v.begin(), v.end());
+
+
+
+
+
